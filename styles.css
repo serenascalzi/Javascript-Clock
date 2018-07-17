@@ -1,0 +1,34 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+html {
+	box-sizing:border-box;
+}
+
+*, *:before, *:after {
+	box-sizing:inherit;
+}
+
+#container {
+	width:500px;
+	height:200px;
+	margin:20px auto;
+	padding:30px;
+	color:white;
+	background-color:;
+	text-align:center;
+	border:6px double white;
+	border-radius:6px;
+}
+
+#clock {
+	font-family:'Bungee Inline', cursive;
+	font-size:72px;
+}
+
+#hexValue {
+	font-family:'Ruda', sans-serif;
+	font-size:36px;
+}
